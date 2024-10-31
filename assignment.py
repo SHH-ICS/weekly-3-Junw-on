@@ -1,4 +1,4 @@
-size = input('large   extra large')
+size = input('large   extra large: ')
 if size == "large":
     pizzasize = 6.00
 elif size == "extra large":
@@ -6,7 +6,7 @@ elif size == "extra large":
 else:
     print("Invalid pizza size entered. Please choose 'large' or 'extra large'.")
 
-toppings = int(input('1   2   3   4'))
+toppings = int(input('1   2   3   4: '))
 if toppings == 1:
     toppingsprice = 1.00
 elif toppings == 2:
